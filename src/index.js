@@ -83,9 +83,9 @@ class Buttons extends React.Component {
             id="size-menu"
             onSelect={this.handleSelect}
           >
-            <DropdownItem href="1">20x10</DropdownItem>
-            <DropdownItem href="2">50x30</DropdownItem>
-            <DropdownItem href="3">70x50</DropdownItem>
+            <DropdownItem eventKey="1">20x10</DropdownItem>
+            <DropdownItem eventKey="2">50x30</DropdownItem>
+            <DropdownItem eventKey="3">70x50</DropdownItem>
           </DropdownButton>
         </ButtonToolbar>
       </div>
